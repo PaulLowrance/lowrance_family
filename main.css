@@ -1,0 +1,15 @@
+
+#typed::after {
+    content: '|';
+    margin-left: 1px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
